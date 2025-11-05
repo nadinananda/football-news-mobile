@@ -22,7 +22,7 @@ class ItemCard extends StatelessWidget {
               ),
             );
 
-          if (item.name == "Tambah Berita") {
+          if (item.name == "Add News") {
             Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => NewsFormPage()),
